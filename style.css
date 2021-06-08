@@ -1,0 +1,93 @@
+/* ----------------------------------------PREPARE------------------------------------- */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1919;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+/* ----------------------------------------HEADER------------------------------------- */
+.header__navBar {
+  background-color: rgb(0, 102, 92);
+}
+.navBar__container {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 0px 30px;
+}
+#navBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  padding: 20px;
+}
+.navBar__li {
+  position: relative;
+  width: 220px;
+  font-size: 17px;
+  font-weight: 550;
+  margin-left: 20px;
+  padding: 30px 20px;
+  border: 1px solid wheat;
+}
+.navBar__a {
+  font-size: 18px;
+  font-weight: 550;
+  color: wheat;
+}
+.navBar1 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: 220px;
+  background-color: springgreen;
+}
+.navBar__li1 {
+  padding: 30px 30px;
+  position: relative;
+  border: 1px solid turquoise;
+}
+.navBar2 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 220px;
+  background-color: springgreen;
+  /* display: none; */
+}
+.navBar__li2 {
+  padding: 30px 30px;
+  border: 1px solid turquoise;
+}
+/* CHỨC NĂNG HOVER */
+.navBar__li:hover {
+  background-color: rgb(104, 202, 192);
+}
+.navBar__li:hover .navBar1 {
+  display: block;
+}
+
+.navBar__li1:hover {
+  background-color: rgb(104, 202, 192);
+}
+.navBar__li1:hover .navBar2 {
+  display: block;
+}
+
+.navBar__li2:hover {
+  background-color: rgb(104, 202, 192);
+}
