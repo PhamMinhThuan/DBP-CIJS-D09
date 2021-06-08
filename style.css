@@ -67,7 +67,6 @@ ul li {
   left: 100%;
   width: 220px;
   background-color: springgreen;
-  /* display: none; */
 }
 .navBar__li2 {
   padding: 30px 30px;
@@ -80,14 +79,12 @@ ul li {
 .navBar__li:hover .navBar1 {
   display: block;
 }
-
 .navBar__li1:hover {
   background-color: rgb(104, 202, 192);
 }
 .navBar__li1:hover .navBar2 {
   display: block;
 }
-
 .navBar__li2:hover {
   background-color: rgb(104, 202, 192);
 }

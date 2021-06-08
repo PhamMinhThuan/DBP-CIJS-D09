@@ -1,3 +1,4 @@
+// Thêm chức năng render Navigation bar 
 function addLi(item){
     let content = item.content;
     let contentA = item.contentA;
@@ -44,6 +45,7 @@ document.getElementById("navBar").innerHTML+=`
 </li>
 `
 }
+// Array Navigation bar 
 liList=[
     { 
       content: "Danh sách nhóm A",
@@ -91,6 +93,7 @@ liList=[
       contentC3: "Chúng"
     }
 ]
+// render
 for(item of liList){
     addLi(item);
 }
