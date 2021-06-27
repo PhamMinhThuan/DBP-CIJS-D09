@@ -1,0 +1,112 @@
+/* base css */
+:root {
+  --background-color: linear-gradient(to right, rgb(154, 72, 185), rgb(243, 66, 155));
+  --black-color: #000;
+  --white-color: #fff;
+  --pink-color: rgba(243, 66, 155, 0.8);
+  --border-color: rgba(72, 88, 233, 0.5);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+}
+
+/* common */
+
+.col-full {
+  width: 100%;
+}
+.col-half {
+  width: calc(100% / 2);
+}
+.text-center {
+  text-align: center !important;
+}
+
+.pading-lf-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pading-tb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pading-tb-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.margin-t-20 {
+  margin-top: 20px;
+}
+.margin-t-25 {
+  margin-top: 25px;
+}
+
+.col {
+  display: flex;
+}
+
+.white-color {
+  color: var(--white-color);
+}
+.black-color {
+  color: var(--black-color);
+}
+.pink-color {
+  color: var(--pink-color);
+}
+.background-image {
+  background-image: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-color {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn {
+  border-radius: 4px;
+  color: var(--white-color);
+}
+
+/* style */
+
+#app {
+  position: relative;
+  height: 100vh;
+}
+
+#app .login-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding-bottom: 20px;
+  background-color: var(--white-color);
+  border-radius: 4px;
+}
+
+#app .heading {
+  font-size: 35px;
+  font-weight: 550;
+}
+#app .small-btn {
+  display: flex;
+}
