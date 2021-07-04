@@ -1,0 +1,30 @@
+li.nav-bar-item {
+  position: relative;
+  width: 220px;
+  font-size: 17px;
+  font-weight: 550;
+  margin-left: 20px;
+  padding: 30px 20px;
+  border: 1px solid wheat;
+}
+li .a-level-1 {
+  font-size: 18px;
+  font-weight: 550;
+  color: wheat;
+}
+ul.nav-bar-level-1 {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: 220px;
+  background-color: springgreen;
+}
+
+/* CHỨC NĂNG HOVER */
+li.nav-bar-item:hover {
+  background-color: rgb(104, 202, 192);
+}
+li.nav-bar-item:hover ul.nav-bar-level-1 {
+  visibility: visible;
+}
