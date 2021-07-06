@@ -1,0 +1,42 @@
+/* base css */
+:root {
+  --background-color: linear-gradient(to right, rgb(154, 72, 185), rgb(243, 66, 155));
+  --black-color: #000;
+  --white-color: #fff;
+  --pink-color: rgba(243, 66, 155, 0.8);
+  --border-color: rgba(72, 88, 233, 0.5);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 550;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.pink-color {
+  color: var(--pink-color);
+}
+
+/* style */
+#App {
+  position: relative;
+  height: 100vh;
+  background-image: var(--background-color);
+}

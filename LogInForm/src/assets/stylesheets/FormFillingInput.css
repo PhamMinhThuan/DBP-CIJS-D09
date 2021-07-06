@@ -1,0 +1,13 @@
+.form-filling {
+  margin-top: 25px;
+}
+.form-style {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  padding: 10px 20px 10px;
+}
+#password {
+  margin-top: 20px;
+}

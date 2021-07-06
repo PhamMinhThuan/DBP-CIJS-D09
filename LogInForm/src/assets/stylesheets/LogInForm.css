@@ -1,0 +1,12 @@
+.login-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding-bottom: 20px;
+  background-color: var(--white-color);
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
