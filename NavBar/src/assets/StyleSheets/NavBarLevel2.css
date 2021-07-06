@@ -1,0 +1,27 @@
+ul li.nav-bar-item-level-1 {
+  padding: 30px 30px;
+  position: relative;
+  border: 1px solid turquoise;
+}
+ul.nav-bar-level-2 {
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 220px;
+  background-color: springgreen;
+}
+ul li.nav-bar-item-level-2 {
+  padding: 30px 30px;
+  border: 1px solid turquoise;
+}
+/* CHỨC NĂNG HOVER */
+li.nav-bar-item-level-1:hover {
+  background-color: rgb(104, 202, 192);
+}
+li.nav-bar-item-level-1:hover ul.nav-bar-level-2 {
+  visibility: visible;
+}
+li.nav-bar-item-level-2:hover {
+  background-color: rgb(104, 202, 192);
+}
